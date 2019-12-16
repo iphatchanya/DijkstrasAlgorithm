@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/mystyle.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css?family=Athiti|Delius+Unicase" rel="stylesheet">
+	<title>Dijkstra’s Algorithm</title>
+</head>
+<body background="bg-christmas-test.jpg" style="background-repeat: no-repeat;background-position: center top">
+	<div class="text">
+			<br /> <br /> 
+			<center><B><U><p style="font-size: 33px;font-family: 'Delius Unicase',cursive;">Dijkstra’s Algorithm</p></U></B></center><br /> 
+			<p style="font-size: 21px;margin-left: 4%;margin-right: 4%">ใช้ในการแก้ปัญหา single-source shortest path โดยทำงานได้ทั้งกราฟแบบมีทิศทางและไม่มีทิศทาง แต่มีเงื่อนไขว่าทุกเส้นเชื่อมต้อง ไม่มีค่าน้ำหนักเป็นค่าลบ </p>
+			<br />
+			<center><B><U><p style="font-size: 25px">วิธีทำงานของ Dijkstra’s Algorithm</p></U></B></center>
+			<p style="font-size: 21px;margin-left: 10%;margin-right: 10%">	1. เลือก node เริ่มต้น								</p>
+			<p style="font-size: 21px;margin-left: 10%;margin-right: 10%">	2. เลือกอันที่สั้นที่สุดจาก node เริ่มต้น					</p>
+			<p style="font-size: 21px;margin-left: 10%;margin-right: 10%">	3. เพิ่ม node  นั้นลงใน set s 						</p>
+			<p style="font-size: 21px;margin-left: 10%;margin-right: 10%">	4. เลือกอันที่น้อยที่สุดจาก node ใน set s 				</p>
+			<p style="font-size: 21px;margin-left: 10%;margin-right: 10%">	5. ทำข้อ 3 กับ 4 วนไปเรื่อยๆ จน node ทั้งหมด อยู่ใน set 	</p>
+			<a href="animation.html"><img  class="button" alt="Animation" src="button-next.png" style="margin-left: 80%;margin-top: 0%""></a>
+			<p style="font-size: 17px;margin-left: 81%">Next Page</p>
+	</div>
+ 	
+
+</body>
+</html>

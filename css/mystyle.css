@@ -1,0 +1,21 @@
+.button{
+	width: 80px;
+	height: 80px;
+	margin-left: 20px;
+}
+.text{
+	width: 660px;
+	height: 600px;
+	margin: 0 auto;
+	font-family: 'Athiti', sans-serif;
+}
+.button{
+	width: 13%;
+	height:13%;
+
+}
+.animation{
+	width: 80%;
+	height: 80%;
+	margin-top: 10%;
+}
